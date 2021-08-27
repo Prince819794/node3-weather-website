@@ -18,7 +18,7 @@ app.set('view engine','hbs')
 app.set('views', viewsPath)
 hbs.registerPartials(partialsPath)
 
-// Setup satic directory to serve
+// Setup satic directory to serve 
 app.use(express.static(publicDirectory))
 
 app.get("",(req,res)=>{
